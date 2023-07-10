@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             transform.Translate(Vector3.forward * (10f * Time.deltaTime));
+            transform.Rotate(Vector3.left * (5f * Time.deltaTime));
         }
     }
 }
