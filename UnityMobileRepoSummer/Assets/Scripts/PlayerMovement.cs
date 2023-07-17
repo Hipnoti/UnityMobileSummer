@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.Translate(Vector3.forward * (10f * Time.deltaTime));
             transform.Rotate(Vector3.left * (5f * Time.deltaTime));
-            Debug.Log("Pikachu!");
+            Debug.Log("Raichu!");
         }
     }
 }
